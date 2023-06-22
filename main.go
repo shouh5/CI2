@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func input() string{
-	return "111"
+	return "111234"
 	//return "hello";
 	//fmt.Print("hello")
 }
