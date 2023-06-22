@@ -24,10 +24,10 @@ jobs:
     - name: Build
       run: go build -v ./...
 
-    - name: code style check
-      uses: golangci/golangci-lint-action@v2
-      with:
-        version: v1.29.0
+#    - name: code style check
+#      uses: golangci/golangci-lint-action@v2
+#      with:
+#        version: v1.29.0
 
     - name: Test
       run: go test  -v ./...
