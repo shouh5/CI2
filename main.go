@@ -2,9 +2,12 @@ package main
 
 import "fmt"
 
-func input(){
-	fmt.Print("hello")
+func input() string{
+	return "111"
+	//return "hello";
+	//fmt.Print("hello")
 }
 func main(){
-	input()
+	enter :=input()
+	fmt.Print(enter)
 }
