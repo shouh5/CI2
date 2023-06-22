@@ -10,4 +10,5 @@ func input() string{
 func main(){
 	enter :=input()
 	fmt.Print(enter)
+	say()
 }
