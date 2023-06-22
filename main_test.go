@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"testing"
 )
-func testInput(t *testing.T){
+
+func TestInput(t *testing.T){
 	enter :=input()
 	fmt.Print(enter)
 	if enter!="hello"{
