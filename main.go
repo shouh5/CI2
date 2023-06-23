@@ -2,11 +2,10 @@ package main
 
 import (
 	"fmt"
-	"os"
 )
 
 func input() string{
-	return "hello"
+	return "hello11"
 	//return "hello";
 	//fmt.Print("hello")
 }
@@ -17,7 +16,7 @@ func main(){
 	security()
 
 	username := "admin"
-	//var password = "f62e5bcda4fae4f82370da0c6f20697b8f8447ef"
-	var password = os.Getenv("password")
+	var password = "f62e5bcda4fae4f82370da0c6f20697b8f8447ef"
+	//var password = os.Getenv("password")
 	fmt.Println("Doing something with: ", username, password)
 }
