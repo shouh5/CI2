@@ -6,7 +6,7 @@ import (
 )
 
 func input() string{
-	return "hello"
+	return "hello11"
 	//return "hello";
 	//fmt.Print("hello")
 }
